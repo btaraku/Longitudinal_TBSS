@@ -1,7 +1,6 @@
 #!/bin/bash
 
 # Setup path to FSL
-FSLDIR=/nafs/apps/fsl/64/6.0.1
 . ${FSLDIR}/etc/fslconf/fsl.sh
 PATH=${FSLDIR}/bin:${PATH}
 
