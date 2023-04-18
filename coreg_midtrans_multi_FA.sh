@@ -2,10 +2,10 @@
 
 # Use to Co-register scans from a single subject across multiple timepoints
 #
-# Takes as input a data directory (data_dir) with a subject ID (subj) and
+# Takes as input a data directory (data_dir), a subject ID (subj) and
 # the names of the timepoints saved in a text file, which are appended to
 # the end of the subject ID (timepoint_list) and the name of the file being
-# co-regsitered
+# co-regsitered (FA_filename)
 #
 # Outputs all co-registered scans for all timepoints, as well as the transformation
 # matricies to co-registered space
