@@ -12,6 +12,7 @@ all co-registered images across all timepoints, with an option to perform spatia
 are used to estimate non-linear transformations for each subject, but are applied to all timepoints, to ensure consistent warps for each 
 timepoint.
 
-Inspired by the Longitudinal TBSS protocol described in Engvig et al https://onlinelibrary.wiley.com/doi/epdf/10.1002/hbm.21370
+Use main.sh to run the entire longitudinal TBSS procedure, which includes co-registraion, single subject template creation, and running
+of the modified TBSS protocol
 
-Use main.sh to run the entire longitudinal TBSS procedure
+Inspired by the Longitudinal TBSS protocol described in Engvig et al https://onlinelibrary.wiley.com/doi/epdf/10.1002/hbm.21370
