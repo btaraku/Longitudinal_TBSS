@@ -1,5 +1,15 @@
 #!/bin/bash
 
+# Averages co-registered longitudinal scans to create a single-subject template for use in subsequent TBSS processing
+#
+# Takes as input a data directory (data_dir), a subject ID (subj) and
+# the names of the timepoints saved in a text file, which are appended to
+# the end of the subject ID (timepoint_list) and the name of the file being
+# co-regsitered (FA_filename). Additonally, an output name (outfile) and a smoothing
+# kernel size in mm (kernel) must be specified. Can leave blank if not smoothing
+#
+# Outputs single subject template
+
 data_dir=$1
 subj=$2
 timepoint_list=$3
