@@ -62,9 +62,9 @@ do
 	cp ${data_dir}/${temp_pfx}${subj_temp}${template_filename}.nii.gz ${tbss_dir}/${subj_temp}m_data.nii.gz
 done
 
-
-pushd ${tbss_dir}/
 #Slightly modified tbss pipeline
+pushd ${tbss_dir}/
+
 tbss_1_preproc *.nii.gz
 # Estimate warps for only midpoint data that has multi timepoints
 echo "Making temporary FA directory"
